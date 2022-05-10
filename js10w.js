@@ -16,7 +16,6 @@ hostname = api.kuaisho*.com
 hostname = open.kuaisho*.com
 */
 const $$ = Envcc('');
-const myks = require('./myks.json')
 let acckey = $$["isNode"]() ? process["env"]["cdkey"] ? process["env"]["cdkey"] : '' : $$["getdata"]("cdkey") ? $$["getdata"]("cdkey") : '',
     all_msg = '',
     mac = '';
@@ -230,9 +229,8 @@ let _0x134a17 = new Date(),
     _0x459e63 = 1.07,
     _0x2e716e = 0,
     _0x5bc515 = "ksjsb",
-    // _0x180c0c = "https://ghproxy.com/https://raw.githubusercontent.com/mrccccj/SHADOW/main/myks.json",
-    _0x180c0c = myks,
-    ksjsbjk = "https://ghproxy.com/https://raw.githubusercontent.com/mrccccj/SHADOW/main/mixed.json",
+    _0x180c0c = "https://ghproxy.fsofso.com/https://github.com/uminoai/mytest/blob/main/myks.json",
+    ksjsbjk = "https://ghproxy.fsofso.com/https://github.com/uminoai/mytest/blob/main/mixed.json",
     _0x75eec0 = "https://127.0.0.1/";
 
 class _0x9d8dda {
@@ -1153,8 +1151,7 @@ async function _0x505e51() {
     if (a["status"] == 0) {
       if (_0x459e63 >= a["version"]) {
         _0x2e716e = true;
-        // _0x75eec0 = "https://ghproxy.com/https://raw.githubusercontent.com/mrccccj/SHADOW/main/myks.json";
-        _0x75eec0 = myks;
+        _0x75eec0 = "https://ghproxy.fsofso.com/https://github.com/uminoai/mytest/blob/main/myks.json";
         console["log"](a["msg"][a["status"]]);
         console['log'](a["updateMsg"]);
         console["log"]("现在运行的脚本版本是：1.07，最新脚本版本：" + a["latestVersion"]);
@@ -3477,8 +3474,7 @@ function Envcc(T, c) {
     'CMAOs': "setval",
     'dceom': 'ijzfe',
     'JighY': 'updateMsg',
-    // 'uwDzR': "https://ghproxy.com/https://raw.githubusercontent.com/mrccccj/SHADOW/main/myks.json",
-    'uwDzR': myks,
+    'uwDzR': "https://ghproxy.fsofso.com/https://github.com/uminoai/mytest/blob/main/myks.json",
     'CvmUM': function (S, a) {
       return S === a;
     },
@@ -3972,8 +3968,7 @@ function Envcc(T, c) {
       if (p["JpIGP"]('ViWHE', p["NOwog"])) {
         if (p["QwtqA"](q, i[p["LTEld"]])) {
           d = true;
-          // u = "https://ghproxy.com/https://raw.githubusercontent.com/mrccccj/SHADOW/main/myks.json";
-          u = myks;
+          u = "https://ghproxy.fsofso.com/https://github.com/uminoai/mytest/blob/main/myks.json";
           e[p["zptFf"]](A[p['EqCpB']][k[p["Qdwtu"]]]);
           o['log'](g["updateMsg"]);
           t["log"](p["UAuSH"](p["AVAsN"], L[p['prrOr']]));
